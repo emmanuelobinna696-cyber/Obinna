@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulse Social</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar left-panel">
+        <div class="brand-wrap">
+          <div class="brand-mark">P</div>
+          <div>
+            <h1>Pulse</h1>
+            <p>Social network</p>
+          </div>
+        </div>
+
+        <nav class="nav-links">
+          <button class="nav-item active" type="button">Home</button>
+          <button class="nav-item" type="button">Explore</button>
+          <button class="nav-item" type="button">Bookmarks</button>
+          <button class="nav-item" type="button">Notifications</button>
+          <button class="nav-item" type="button">Messages</button>
+        </nav>
+
+        <div class="profile-card" id="profileCard"></div>
+      </aside>
+
+      <main class="feed-panel">
+        <header class="topbar">
+          <h2>Home</h2>
+          <button class="primary-btn" type="button">Create post</button>
+        </header>
+
+        <section class="composer">
+          <form id="postForm">
+            <div class="composer-row">
+              <img id="composerAvatar" alt="Your avatar" class="avatar small" />
+              <textarea id="postContent" maxlength="280" placeholder="What's happening today?"></textarea>
+            </div>
+            <div class="composer-actions">
+              <input id="postImageUrl" type="url" placeholder="Optional image URL" />
+              <button type="submit" class="primary-btn">Post</button>
+            </div>
+          </form>
+        </section>
+
+        <section id="feed" class="feed"></section>
+      </main>
+
+      <aside class="sidebar right-panel">
+        <div class="panel-card">
+          <h3>Trending</h3>
+          <ul class="trending-list">
+            <li><span>#Product</span><strong>24k</strong></li>
+            <li><span>#Design</span><strong>18k</strong></li>
+            <li><span>#Startups</span><strong>12k</strong></li>
+            <li><span>#RemoteWork</span><strong>9k</strong></li>
+          </ul>
+        </div>
+
+        <div class="panel-card">
+          <h3>Suggested people</h3>
+          <div id="suggestedUsers" class="suggested-users"></div>
+        </div>
+      </aside>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

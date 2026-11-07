@@ -1,0 +1,36 @@
+# Pulse Social
+
+Pulse is a complete social media app built with Node.js and Express. It includes a modern responsive UI, post creation, likes, comments, profile card, and trending content sections.
+
+## Features
+
+- Create a new post with text and optional image URL
+- Like posts
+- Add comments to posts
+- View profile data and suggested users
+- Persistent data stored in `data/db.json`
+- Clean mobile-friendly dashboard layout
+
+## Run locally
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the app:
+   ```bash
+   npm start
+   ```
+3. Open http://localhost:5000
+
+## Project structure
+
+- `server.js` – Express API and static file server
+- `public/index.html` – App markup
+- `public/styles.css` – UI styling
+- `public/app.js` – Frontend logic
+- `data/db.json` – Stored users and posts
+
+## Notes
+
+This app uses a lightweight JSON-based persistence layer to keep the project simple and runnable without a database setup.

@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Obinna C.",
+      "username": "obinna",
+      "bio": "Building creative products and sharing ideas with the world.",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "u2",
+      "name": "Ada King",
+      "username": "adaking",
+      "bio": "Tech writer, keynote speaker, and coffee enthusiast.",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80"
+    },
+    {
+      "id": "u3",
+      "name": "Sam Reed",
+      "username": "samreed",
+      "bio": "Frontend engineer building delightful digital experiences.",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=200&q=80"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "author": "Obinna C.",
+      "username": "obinna",
+      "content": "Shipping our new community platform today. The goal is simple: better conversations and faster ideas.",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "likes": 128,
+      "comments": [
+        {
+          "id": "c1",
+          "author": "Ada King",
+          "text": "This is a great vision for a community-first product."
+        },
+        {
+          "id": "c2",
+          "author": "Sam Reed",
+          "text": "Love the direction. The product feels clean already."
+        }
+      ],
+      "createdAt": "2026-11-07T12:40:00.000Z"
+    },
+    {
+      "id": "p2",
+      "author": "Ada King",
+      "username": "adaking",
+      "content": "Idea for the week: create a product that helps teams share updates without meetings. Momentum beats meetings.",
+      "image": "",
+      "likes": 98,
+      "comments": [
+        {
+          "id": "c3",
+          "author": "Obinna C.",
+          "text": "Absolutely, async communication is the future."
+        }
+      ],
+      "createdAt": "2026-11-07T11:20:00.000Z"
+    },
+    {
+      "id": "p3",
+      "author": "Sam Reed",
+      "username": "samreed",
+      "content": "Design systems are not just style guides. They are the product language that helps teams move faster.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
+      "likes": 74,
+      "comments": [],
+      "createdAt": "2026-11-07T09:35:00.000Z"
+    }
+  ]
+}
